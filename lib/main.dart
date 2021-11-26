@@ -2,9 +2,20 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(
-    const MaterialApp(
-      home: Center(
-        child: Text('Hello World'),
+    MaterialApp(
+      home: Scaffold(
+        backgroundColor: Colors.blueGrey,
+        appBar: AppBar(
+          title: const Center(
+            child: Text('I Am Rich'),
+          ),
+          backgroundColor: Colors.blueGrey[900],
+        ),
+        body: Center(
+          child: Image(
+            image: NetworkImage(),
+          ),
+        ),
       ),
     ),
   );

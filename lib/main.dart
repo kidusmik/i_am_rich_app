@@ -11,9 +11,9 @@ void main() {
           ),
           backgroundColor: Colors.blueGrey[900],
         ),
-        body: Center(
+        body: const Center(
           child: Image(
-            image: NetworkImage(),
+            image: AssetImage('images/diamond.png'),
           ),
         ),
       ),
